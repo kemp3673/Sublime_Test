@@ -1,7 +1,7 @@
 # Sublime_Test
 
 <p> Open the index.html file in your browser to see the results.</p>
-
+<p>Work completed in around 4 hours.</p>
 <p><b>NOTE:</b> I did not include the time I took to source images in this time, as I operated on the belief that image files would most likely be provided on a real world project, but this time was fairly minimal.</p>
 
 <h3>Things That I would do differently</h3>
