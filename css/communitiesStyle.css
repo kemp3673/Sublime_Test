@@ -1,0 +1,39 @@
+.communities {
+  display: flex;
+  background-color: white;
+  width: 100vw;
+  position: relative;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.communities .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.communities ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 0;
+}
+
+.communities img {
+  width: 100%;
+}
+
+.communities p {
+  font-size: 0.7rem;
+  line-height: .5rem;
+}
+
+.communities h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}

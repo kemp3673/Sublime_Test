@@ -1,0 +1,128 @@
+footer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #232323;
+  color: #b9b9b9;
+  padding: 10px 0;
+  width: 100vw;
+  align-items: center;
+}
+
+footer .sections {
+  border-bottom: #3e3e3e 1px solid;
+  align-items: center;
+  font-size: 0.5rem;
+  width: 75%;
+  max-width: 1000px;
+}
+
+footer ul {
+  flex-direction: column;
+}
+
+footer ul li {
+  line-height: normal;
+  padding: 2px;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: 1.75fr 1fr 1fr;
+  padding: 10px 0 30px 0;
+}
+
+.middle .address span {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer_title {
+  color: #03dada;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #009191;
+}
+
+footer .logo {
+color: #fff;
+font-size: 0.8rem;
+}
+
+footer .logo img {
+padding: 0 0.4rem 0 0;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+footer .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 20px 0;
+  border: none;
+}
+
+footer .bottom span {
+  color: #009ca7;
+}
+
+.socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50%;
+}
+
+.socials img {
+  height: .8rem;
+  padding: .4rem;
+  margin-right: 0.4rem;
+  border: 1px solid;
+  border-radius: 25%;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  padding: 0 0.4rem;
+}
+
+.twitter {
+color: #1da1f2;
+border-color: #1da1f2;
+}
+
+.twitter:hover {
+color: #146a9f;
+border-color: #146a9f;
+}
+
+.facebook {
+color: #3b5998;
+border-color: #3b5998;
+}
+
+.facebook:hover {
+color: #2a3f6a;
+border-color: #2a3f6a;
+}
+
+/* Couldn't quite get the gradient border. Tried border-image-source: linear-gradient(45deg, purple, orange); which did not work and I need to read up more on how to do this. */
+.instagram {
+color: #b2600d;
+border-color: #b2600d;
+}
+
+.instagram:hover {
+color: #7e4309;
+border-color: #7e4309;
+}
